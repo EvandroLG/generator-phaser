@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "browserify": "8.1.1",
+    "http-server": "0.7.4"
+  }
+}
