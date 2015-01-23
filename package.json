@@ -2,7 +2,9 @@
   "devDependencies": {
     "browserify": "8.1.1",
     "http-server": "0.7.4",
+    "jshint": "^2.6.0",
     "uglifyjs": "^2.3.6",
-    "vigilia": "^0.1.0"
+    "vigilia": "^0.1.0",
+    "jshint": "^2.6.0"
   }
 }
