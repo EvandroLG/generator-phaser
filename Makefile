@@ -40,4 +40,4 @@ test_js:
 	$(MOCHA) test/SpecRunner.html
 
 watch:
-	$(VIGILIA) '$(DIR_SRC)*.js':'make build'
+	$(VIGILIA) '$(DIR_SRC_SCRIPT)*.js':'make build'
