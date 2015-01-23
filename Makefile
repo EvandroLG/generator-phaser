@@ -4,6 +4,7 @@ BROWSERIFY=$(NODE_MODULES)browserify/bin/cmd.js
 VIGILIA=$(NODE_MODULES)vigilia/bin/vigilia
 UGLIFY=$(NODE_MODULES)uglify-js/bin/uglifyjs
 JSHINT=$(NODE_MODULES)jshint/bin/jshint
+MOCHA=$(NODE_MODULES)mocha-phantomjs/bin/mocha-phantomjs
 
 DIR_SRC=src/
 DIR_DIST=dist/
@@ -26,6 +27,9 @@ minify:
 	echo "minified!"
 
 build: jshint browserify minify
+
+test_js:
+	$(MOCHA) test/SpecRunner.html
 
 watch:
 	$(VIGILIA) '$(DIR_SRC)*.js':'make build'
