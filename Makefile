@@ -34,7 +34,7 @@ tree:
 	mkdir -p $(DIR_DIST_IMAGE)
 
 build: tree jshint browserify minify
-	cp -r $(DIR_SRC_IMAGE)* 2>$(DIR_DIST_IMAGE)
+	cp -r $(DIR_SRC_IMAGE)* $(DIR_DIST_IMAGE)
 
 test_js:
 	$(MOCHA) test/SpecRunner.html
