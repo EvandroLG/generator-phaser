@@ -1,6 +1,8 @@
 {
   "devDependencies": {
     "browserify": "8.1.1",
-    "http-server": "0.7.4"
+    "http-server": "0.7.4",
+    "uglifyjs": "^2.3.6",
+    "vigilia": "^0.1.0"
   }
 }
