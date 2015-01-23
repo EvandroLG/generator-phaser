@@ -1,0 +1,17 @@
+{
+    "bitwise": false,
+    "eqeqeq": true,
+    "forin": true,
+    "latedef": true,
+    "noarg": true,
+    "nonbsp": true,
+    "nonew": true,
+    "undef": true,
+    "unused": true,
+    "multistr": true,
+    "esnext": true,
+    "browser": true,
+    "jquery": true,
+    "node": true,
+    "nonew": false
+}
